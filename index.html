@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+
+    }
+    body,html{
+        height:100%;
+        margin:0;
+    }
+    label{
+        color: yellow;
+        font-size: 24px;;
+
+
+    }
+    nav{
+        background-color: #001d3d;
+      height:80px;
+        width:100%;
+        line-height: 80px;
+    
+        }
+
+        label{
+            font-size: 55px;
+            padding-left: 120px;
+        }
+        ul{
+            float: right;
+            text-align: center;
+            font-size: 24px;
+          }
+        li{
+            display: inline-block;
+            padding: 20px;
+        
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+        text-decoration: underline;
+        }
+      .big-image{
+          background-image: url("./images/chan.jpg");
+             background-position: center;
+            /* background-repeat: no-repeat;*/
+             background-size: cover;
+             height:100%;
+             width:100%;
+             opacity: 0.8;
+             margin:0 auto auto auto;
+
+      }
+      h2{
+          font-size: 100px;
+          position: relative;
+          top:50%;
+          left:50%;
+          transform: translate(-50%,-50%);
+          padding-left:50%;
+          margin-bottom:30px;
+          border:1px black solid;
+          
+      }
+      div{
+       
+       font-size: 22px;
+       margin-top:100px;
+       text-align: center;
+      }
+      h3{
+          
+          text-align: center;
+      }
+      .world1{
+    height:400px;
+    width:260px;
+    justify-content: center;
+    position:absolute;
+    margin:100px auto auto 25%;
+    border-radius: 25px;
+    background: #e0e0e0;
+box-shadow:  -10px 10px 20px #aaaaaa,
+             10px -10px 20px #ffffff;
+
+  }
+
+      .image1{
+          background-image: url("./images/magic1.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin:0;
+          height:235px;
+          width:260px;
+          
+          border-radius: 25px;
+    
+          
+        }
+        .world2{
+    height:400px;
+    width:260px;
+    justify-content: center;
+    position:absolute;
+    margin:100px auto auto 45%;
+    border: none;
+    border-radius: 25px;
+    background: #e0e0e0;
+box-shadow:  -10px 10px 20px #aaaaaa,
+             10px -10px 20px #ffffff;
+
+  }
+
+      .image2{
+          background-image: url("./images/mag.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:235px;
+          width:260px;
+          margin: 0;
+          border-radius: 25px;
+          
+        }
+        .world3{
+    height:400px;
+    width:260px;
+    justify-content: center;
+    position:absolute;
+    margin:100px auto auto  65%;
+    border-radius: 25px;
+    background: #e0e0e0;
+box-shadow:  -10px 10px 20px #aaaaaa,
+             10px -10px 20px #ffffff;
+
+  }
+
+      .image3{
+          background-image: url("./images/m11.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:235px;
+          width:260px;
+          margin: 0;
+          padding: 0;
+          border-radius: 25px;
+       
+          
+        }
+       .world4{
+        height:400px;
+    width:260px;
+    justify-content: center;
+    position:absolute;
+    margin:600px  auto auto 25%;
+    border-radius: 25px;
+    background: #e0e0e0;
+box-shadow:  -10px 10px 20px #aaaaaa,
+             10px -10px 20px #ffffff;
+
+
+  }
+
+  .image4{
+      background-image: url("./images/cake3.jpg");
+      background-repeat: no-repeat;
+          background-size: cover;
+          height:260px;
+          width:260px;
+          margin: 0;
+          border-radius: 25px;
+       
+       
+
+  }
+  .world5{
+    height:400px;
+    width:260px;
+   margin:600px auto 0px 45%;
+    background: #e0e0e0;
+    border-radius: 25px;
+    background: #e0e0e0;
+box-shadow:  -10px 10px 20px #aaaaaa,
+             10px -10px 20px #ffffff;
+
+
+  }
+
+      .image5{
+          background-image: url("./images/burger.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:260px;
+          width:260px;
+          border-radius: 25px;
+          margin: 0;
+          
+          
+        }
+        .world6{
+            height:400px;
+    width:260px;
+   margin:-400px auto 0px 65%;
+    background: #e0e0e0;
+    border-radius: 25px;
+    background: #e0e0e0;
+box-shadow:  -10px 10px 20px #aaaaaa,
+             10px -10px 20px #ffffff;
+
+     
+        
+  }
+
+      .image6{
+          background-image: url("./images/pexels-mariana-kurnyk-1775043.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:260px;
+          width:260px;
+          margin: 0;
+          border-radius: 25px;
+    
+        }
+   
+        
+  
+     
+   input[type=button]{
+    height:40px;
+        width:110px;
+        background-color: hsl(350, 96%, 43%);
+        border: none;
+        color:white;
+        border-radius:6px;
+        margin:25px;
+        align-items: center;
+        font-size: 18px;
+        font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+
+   }
+   footer{
+       position: relative;
+       top:180%;
+       margin:200px auto auto auto;
+       background-color: #001d3d;
+       height:300px;
+   }
+ 
+   
+  #h6{
+      color:white;
+      font-size: 22px;
+      padding-left: 30px;
+      padding-top: 50px;
+  }
+input[type=text],input[type=number],input[type=email]{
+    position: relati    ve;
+    height:30px;
+    width:220px;
+    border-radius:20px;
+    transition: all 0.2 linear;
+    outline:none;
+}
+input[type=text],input[type=number],input[type=email]:hover{
+    height:33px;
+    width:230px;
+
+}
+
+
+
+input[type=btn]{
+ text-align: center;   
+ margin:0 auto 0% 50%;
+ height:60px;
+ font-size: 22px;
+ position: relative;
+ bottom:100px;
+        width:220px;
+        background-color: hsl(350, 96%, 43%);
+        border: none;
+        color:white;
+        border-radius:12px;
+        font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+
+
+}
+input[type=submit]
+{
+    background-color: hsl(350, 96%, 43%);
+        
+  height:50px;
+ font-size: 20px;
+        width:120px;
+        border: none;
+        color:white;
+        border-radius:12px;
+        font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+
+      
+ 
+}
+
+
+
+</style>
+   </head>
+<body>
+    <header>
+    <nav>
+        <label for="">foodies people</label>
+
+
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">protfolio</a></li>
+            <li><a href="#">log in</a></li>
+            <li><a href="#">contact us</a></li>
+        
+        </ul>
+    </nav>
+</header>
+
+<div class="big-image"></div>
+<main>
+<div>
+    <H3>   About</H3>
+    it was one of the best hotel in you ahemadabad it was <br>
+    totally buget hotel world best food surved to youmany<br>
+    types of food are available.you can visit in this hotel.
+</div>
+ 
+<div class="world1">
+<div class="image1"></div>
+world best burger from foodies  oooo boys 
+<input type="button" value="ordernow">
+
+</div>
+<div class="world2">
+    <div class="image2"></div>
+    world best choole from foodies  oooo boys    <input type="button" value="ordernow">
+
+    </div>
+    <div class="world3">
+        <div class="image3"></div>
+        world best chinese from foodies  oooo boys   <input type="button" value="ordernow">
+
+        
+        </div>
+        <div class="world4">
+            <div class="image4"></div>
+            world best cake from foodies  oooo boys    <input type="button" value="ordernow">        
+            </div>
+ <div class="world5">
+                <div class="image5"></div>
+                world best  burger3 from foodies  oooo boys     <input type="button" value="ordernow">
+    </div>
+    <div class="world6">
+        <div class="image6"></div>
+        world best foodies from foodies  oooo boys     <input type="button" value="ordernow">
+</div>
+
+
+                
+ <footer>
+  
+    <form action="" >
+    <span id="h6"> Name</span><input type="text" name="name" id=""><br><br>
+    <span id="h6"> Emailid</span><input type="email" name="email" id=""><br><br>
+    <span id="h6"> Phone no</span><input type="number" name="number" id=""><br><br>
+    <span>submit <input type="submit" value="submit"></span>
+    </form>
+
+    <input type="btn" value="book your order">
+
+</footer>
+
+                    
+</body>
+</html>
